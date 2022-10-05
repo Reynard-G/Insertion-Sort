@@ -20,7 +20,10 @@ for i in 0 ..< arr.count {
             currSwap += 1
         } else { break }
     }
-    print("Pass: \(pass), Swaps: \(currSwap)/\(totalSwap), Array: \(arr)")
+}
+
+for line in arr {
+    print(line)
 }
 
 func swapAt(array: inout [String], index: inout Int) {
